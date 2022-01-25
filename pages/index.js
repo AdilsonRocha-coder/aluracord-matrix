@@ -90,7 +90,7 @@ export default function PaginaInicial() {
           justifyContent: 'center',
           backgroundColor: appConfig.theme.colors.primary[500],
           backgroundImage:
-            'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+            'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeiwFnDQeS9AHwCtVl5rd77TDKrX2j5Qp6bA&usqp=CAU)',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundBlendMode: 'multiply'
@@ -111,6 +111,11 @@ export default function PaginaInicial() {
             padding: '32px',
             margin: '16px',
             boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
+            //backgroundImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrl5IxKemrsvZJOda6TYSqoglNXt654futIA&usqp=CAU',
+            backgroundImage:
+              'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrl5IxKemrsvZJOda6TYSqoglNXt654futIA&usqp=CAU)',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
             backgroundColor: appConfig.theme.colors.neutrals[700]
           }}
         >
